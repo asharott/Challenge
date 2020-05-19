@@ -1,43 +1,42 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <title>challenge</title>
-  </head>
-  <body>
-    <div id="app"></div>
-    <!-- built files will be auto injected -->
-  </body>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>challenge</title>
+</head>
+<body>
+<div id="app"></div>
+<!-- built files will be auto injected -->
+</body>
 </html>
 
 <style>
 
-  @font-face {
-    font-family: "Arial Narrow";
+
+  .content {
+    color: white;
+    position: fixed;
+    top: 35%;
+    left: 30%;
+    text-align: center;
+
   }
- .content {
 
-   color: white;
-   position: fixed;
-   top: 35%;
-   left: 30%;
-   text-align: center;
- }
+  .content h1 {
+    font-family: "Arial Narrow";
+    font-size: 50px;
+    padding: 15px;
+  }
 
- .content h1 {
-   font-family: "Arial Narrow";
-   font-size: 50px;
-
- }
-
- .content button {
+  .content button {
     background-color: rgb(57, 199, 255);
-   border-radius: 12px;
-   height : 50px;
-   width: 200px;
-   font-weight: bold;
- }
+    border-radius: 12px;
+    height: 50px;
+    width: 200px;
+    font-weight: bold;
+
+  }
 
 
   Video {
@@ -46,5 +45,117 @@
     bottom: 0;
     min-width: 100%;
     min-height: 100%;
+  }
+
+
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  .listArticle {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    background-color: #000000;
+    background-image: linear-gradient(147deg, #000000 0%, #04619f 74%);
+  }
+
+  .logo {
+    width: 175px;
+    height: 50px;
+    position: fixed;
+    left: 20px;
+    top: 20px;
+  }
+
+  ul {
+    right: 30%;
+    top: 20%;
+    position: fixed;
+    list-style-type: none;
+    width: 500px;
+    height: 100%;
+  }
+
+  h2, h5 {
+    text-align: center;
+    padding: 10px;
+  }
+  h3 {
+
+    font: bold 20px/1.5 Helvetica, Verdana, sans-serif;
+  }
+
+  li div {
+    color: white;
+  }
+
+  li img {
+
+    height: 100px;
+    width: 100px;
+    float: left;
+    margin: 0 15px 0 0;
+  }
+
+  li p {
+    font: 200 12px/1.5 Georgia, Times New Roman, serif;
+  }
+
+  li {
+    padding: 10px;
+    overflow: auto;
+  }
+
+  li:hover p h3 {
+    cursor: pointer;
+    color: black;
+  }
+
+  li:hover {
+    background: #eee;
+    cursor: pointer;
+
+  }
+
+  li:hover div {
+    cursor: pointer;
+    color: black;
+  }
+
+  .card {
+    background-color: lightslategrey;
+    padding: 20px;
+    margin-top: 50px;
+    border-radius: 12px;
+    height: 75vh;
+  }
+
+  .contentArticle {
+    display: flex;
+    padding:  20px;
+  }
+
+  .articleImg {
+    height: 40%;
+    width: 20%;
+  }
+
+  .articleText {
+    margin-left: 20px;
+  }
+
+  .secondText {
+    padding: 20px;
+  }
+
+  body {
+    font-family: Arial;
+    padding: 40px;
+    background-color: #000000;
+    background-image: linear-gradient(147deg, #000000 0%, #04619f 74%);
   }
 </style>
