@@ -1,35 +1,17 @@
-<template>
-  <div class="hello">
-    <h1>{{ msg }}</h1>
-    <router-link to="/ListArticle">Liste des articles</router-link>
-  </div>
-</template>
-
 <script>
-export default {
-  name: 'Homepage',
-  data () {
-    return {
-      msg: 'Welcome to Your Blog'
-    }
-  }
-}
+
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
-h1, h2 {
-  font-weight: normal;
-}
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
-a {
-  color: #42b983;
-}
-</style>
+<template>
+  <div>
+    <video autoplay muted loop class="myVideo">
+      <source
+        src="https://teamfighttactics.leagueoflegends.com/fr-fr/static/header-5aee73c95713ccb4a406843a7c0f5ba8.webm"
+        type="video/webm"/>
+    </video>
+    <div class="content">
+      <h1>Blog Team Fight Tactic's</h1>
+      <button><router-link to="/ListArticle">Acceder aux Articles</router-link></button>
+    </div>
+  </div>
+</template>
