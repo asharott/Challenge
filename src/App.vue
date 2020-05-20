@@ -1,4 +1,3 @@
-
 <template>
   <div id="app">
     <router-view/>
@@ -12,5 +11,3 @@ export default {
 // Check that service workers are supported
 
 </script>
-
-

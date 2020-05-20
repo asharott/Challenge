@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  <div>
+  <div class="container">
     <video autoplay muted loop class="myVideo">
       <source
         src="https://teamfighttactics.leagueoflegends.com/fr-fr/static/header-5aee73c95713ccb4a406843a7c0f5ba8.webm"
