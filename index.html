@@ -24,7 +24,6 @@
     position: absolute;
     top: 50%;
     left: 50%;
-
     transform: translate(-50%, 50%);
   }
 
@@ -81,12 +80,19 @@
   }
 
   ul {
-    right: 30%;
-    top: 20%;
-    position: fixed;
-    list-style-type: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     width: 500px;
     height: 100%;
+    margin-top: 50px;
+  }
+
+  @media (max-width : 900px) {
+    ul {
+      margin-top: 100px;
+    }
   }
 
   h2, h5 {
@@ -95,7 +101,6 @@
   }
 
   h3 {
-
     font: bold 20px/1.5 Helvetica, Verdana, sans-serif;
   }
 
@@ -104,7 +109,6 @@
   }
 
   li img {
-
     height: 100px;
     width: 100px;
     float: left;
